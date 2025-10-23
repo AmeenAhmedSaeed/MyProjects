@@ -1,0 +1,229 @@
+.news-content {
+    font-family: Ubuntu-R;
+    padding-top: 144px;
+    padding-bottom: 40px;
+    @media (max-width:991px) {
+        padding-top: 96px;
+    }
+}
+
+.first_col {
+    .big-card {
+        border: none;
+        box-shadow: 0 3px 6px rgb(0, 0, 0, 16%);
+        border-radius: 20px;
+        padding: 16px 16px 16px 16px;
+        height: auto !important;
+        img {
+            border-radius: 20px;
+        }
+
+        .card-body {
+            padding: 0;
+            padding-top: 24px;
+
+            span:nth-child(1) {
+                font-size: 18px;
+                font-weight: normal;
+                background-color: #e2f3ff !important;
+                color: #1d8d99;
+                padding: 12px;
+                margin-bottom: 16px;
+                border-radius: 10px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 14px;
+                }
+            }
+
+            h5 {
+                font-size: 30px;
+                margin: 0;
+                margin-bottom: 16px;
+
+                @media (max-width: 991px) {
+                    font-size: 22px;
+                }
+            }
+
+            p {
+                font-family: Ubuntu-R;
+                font-size: 20px;
+                line-height: 28.8px;
+                color: #707070;
+                font-weight: normal;
+
+                @media (max-width: 991px) {
+                    font-size: 13px;
+                }
+            }
+
+            .read_more {
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+                justify-content: flex-end;
+                margin-top: 50px;
+                padding-right: 25px;
+
+                a {
+                    text-decoration: none;
+                    color: var(--color_text_buttontwo);
+                }
+
+                svg {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.second-col {
+    @media screen and (max-width: 768px) {
+        margin-top: 10px;
+    }
+
+    .small-card {
+        border: none;
+        box-shadow: 0 3px 6px rgb(0, 0, 0, 16%);
+        padding: 16px;
+        border-radius: 20px;
+        margin-bottom: 12px;
+
+        span:first-child {
+            font-size: 18px;
+            font-weight: normal;
+            background-color: #e2f3ff !important;
+            color: #1d8d99;
+            border-radius: 10px;
+            padding: 11px 8px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+
+        h5 {
+            font-size: 1.4rem;
+            line-height: 35px;
+            font-family: Ubuntu-B;
+
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+
+        p {
+            line-height: 22px;
+            color: rgb(112, 112, 112, 100%);
+        }
+
+        .read_more {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            justify-content: flex-end;
+
+            a {
+                text-decoration: none;
+                color: var(--color_text_buttontwo);
+
+                @media screen and (max-width: 768px) {
+                    font-size: 14px;
+                }
+            }
+
+            svg {
+                font-weight: 600;
+            }
+        }
+    }
+
+    .small-card:first-child {
+        margin-bottom: 15px;
+    }
+}
+
+.second-row {
+    margin-top: 24px;
+    row-gap: 30px;
+}
+
+.third-col {
+    .small-card {
+        border: none;
+        box-shadow: 0 3px 6px rgb(0, 0, 0, 16%);
+        padding: 16px;
+        border-radius: 20px;
+        margin-bottom: 12px;
+
+        span {
+            font-size: 18px;
+            font-weight: normal;
+            background-color: #e2f3ff !important;
+            color: #1d8d99;
+            border-radius: 10px;
+            padding: 11px 8px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+
+        h5 {
+            font-size: 1.4rem;
+            font-family: Ubuntu-B;
+            line-height: 35px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+
+        p {
+            line-height: 22px;
+            color: rgb(112, 112, 112, 100%);
+        }
+
+        .read_more {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            justify-content: flex-end;
+
+            a {
+                text-decoration: none;
+                color: var(--color_text_buttontwo);
+
+                @media screen and (max-width: 768px) {
+                    font-size: 14px;
+                }
+            }
+
+            svg {
+                font-weight: 600;
+            }
+        }
+    }
+}
+.no_data{
+    height: 100vh;
+     .innerdiv{
+        padding-top: 180px;
+        img{
+            width: 30%;
+        }
+        h2{
+            padding-top:30px ;
+            span{
+                color: red;
+                font-size: 40px;
+            }
+        }
+     }
+   
+
+}

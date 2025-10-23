@@ -1,0 +1,24 @@
+@use './global/reset';
+@use './global/color' as *;
+@use './global/font' as *;
+
+
+
+.swiper-pagination-bullet {
+    width: 16.56px;
+    height: 16.56px;
+    transition: all .3s;
+    background-color: #E52421;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    width: 48px;
+    border-radius: 11px
+}
+
+.googlemap{
+    @media (max-width:768px)  {
+        display: none !important;
+    }
+}
